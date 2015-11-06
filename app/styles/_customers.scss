@@ -1,0 +1,40 @@
+.customer-header {
+  font-size: $font-size-h2;
+  color: $headings-color;
+  margin-top: 0;
+}
+
+.button-push {
+  margin-top: 1.3em;
+}
+
+.customersec {
+    margin-top: 1em;
+
+    .customers-list {
+      margin: 0.5em 0.938em;
+      padding: 0;
+      background: $brown-lighter;
+      border: 1px solid $brown;
+
+      & h1,
+      & h2 {
+        margin: 0;
+        padding: 0.313em;
+      }
+
+      & h1 {
+        background: $blue;
+        color: $white;
+        font-size: 1.2em;
+      }
+
+      & h2 {
+        font-size: 1em;
+      }
+
+      a {
+        margin-left: 0.313em;
+      }
+    }
+}
