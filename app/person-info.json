@@ -1,0 +1,57 @@
+{
+  "records": [
+    {
+      "id": "1",
+      "fname": "Praveen",
+      "lname": "O Krishnan",
+      "city": "Bangalore"
+    },
+    {
+      "id": "2",
+      "fname": "Bhavana",
+      "lname": "Balan",
+      "city": "Bangalore"
+    },
+    {
+      "fname": "Dheeraj",
+      "lname": "Bhaskaran",
+      "city": "New York"
+    },
+    {
+      "id": "3",
+      "fname": "Gopi",
+      "lname": "N",
+      "city": "Kolkatta"
+    },
+    {
+      "id": "4",
+      "fname": "Harikumar",
+      "lname": "M M",
+      "city": "Pattambi"
+    },
+    {
+      "id": "5",
+      "fname": "Prajeesh",
+      "lname": "Chandran",
+      "city": "Kuwait"
+    },
+    {
+      "id": "6",
+      "fname": "Sreeraj",
+      "lname": "Pushpangadhan",
+      "city": "United Kingdom"
+    },
+    {
+      "id": "7",
+      "fname": "Vivek",
+      "lname": "Chandran",
+      "city": "Amsterdam"
+    },
+    {
+      "id": "8",
+      "fname": "Siju",
+      "lname": "Palayil",
+      "city": "Doha Qatar"
+    }
+  ]
+}

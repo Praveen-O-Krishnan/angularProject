@@ -1,0 +1,29 @@
+<div ng-controller="person">
+  <div class="row">
+  <h2 class="customer-header">Customers</h2>
+  <div class="col-md-3">
+    First Name:
+    <input type="text" name="firstname" class="form-control" id="firstname" placeholder="First Name" ng-model="newFname.fname">
+  </div>
+  <div class="col-md-3">
+    Last Name:
+    <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Last Name" ng-model="newLname.lname">
+  </div>
+  <div class="col-md-3">
+    City:
+    <input type="text" name="city" class="form-control" id="city" placeholder="Customer City" ng-model="newCity.city">
+  </div>
+  <div class="col-md-3 button-push">
+    <button name="add" ng-click="addNew()" class="btn btn-primary">Add Customer</button>
+  </div>
+</div>
+<div class="row customersec">
+  <div class="col-md-3 customers-list" ng-repeat="person in persons">
+      <div class="customer-descr">
+        <h1>{{ person.fname }} {{ person.lname }}</h1>
+        <h2>{{ person.city }}</h2>
+        <a href="#/orders">View {{}} Orders</a>
+      </div>
+  </div>
+</div>
+</div>
