@@ -8,14 +8,8 @@ app.config(['$routeProvider', function($routeProvider){
       .when('/', {
         template: 'Welcome!'
       })
-      .when('/customers', {
-        templateUrl: 'customers.html'
-      })
-      .when('/orders', {
-        templateUrl: 'orders.html'
-      })
-      .when('/parallax', {
-        templateUrl: 'parallax.html'
+      .when('/above', {
+        templateUrl: 'above.html'
       })
       .otherwise({
         redirectTo: '/'
@@ -36,6 +30,13 @@ app.controller('person', ['$scope', '$http', function($scope, $http, $location) 
           city: $scope.newCity.city
         });
     }
+}]);
+
+app.controller('personInfo', ['$scope', '$http', function($scope, $http) {
+  $http.get('person-information.json')
+    .success(function(response) {
+      $scope.persons = response.records;
+    });
 }]);
 
 

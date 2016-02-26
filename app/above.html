@@ -1,0 +1,14 @@
+<div ng-controller="personInfo">
+<h1>Praveen - (Assignment)</h1>
+<div>
+  <h3>Search here <input type="text" ng-model="query"></h3>
+</div>
+<div class="row customersec">
+  <div class="col-md-3 customers-list" ng-repeat="person in persons | filter:query">
+      <div class="customer-descr">
+        <h1>{{ person.fname }} {{ person.lname }}</h1>
+        <h2>Phone No - {{ person.phone }}</h2>
+      </div>
+  </div>
+</div>
+</div>

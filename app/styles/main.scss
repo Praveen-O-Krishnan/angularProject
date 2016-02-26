@@ -4,8 +4,8 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@import "_var.scss";
-@import "_customers.scss";
+@import "_var";
+@import "_customers";
 
 .browsehappy {
   margin: 0.2em 0;
@@ -97,5 +97,18 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+}
+
+/*****
+javascript study
+*****/
+
+.javascript-study {
+  & ul.quest {
+    border-top: 1px solid $gray-lighter;
+    border-bottom: 1px solid $gray-lighter;
+    background: $brown-lighter;
+    margin-top: 30px;
   }
 }

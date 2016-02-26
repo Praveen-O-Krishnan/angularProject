@@ -38,3 +38,104 @@
       }
     }
 }
+
+// Payment
+.mainTable {
+  width: 100%;
+}
+
+.mainTable td:first-child {
+  text-align: right;
+  width: 40%;
+}
+
+.mainTable td label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.mainTable td input {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  color: #777;
+  font-size: 13px;
+  height: 35px;
+  padding: 10px;
+  width: 50%;
+}
+
+.mainTable td option {
+  border-radius: none;
+  height: 30px;
+  padding: 10px;
+}
+
+.creCVV2Field {
+  width: 10% !important;
+}
+
+.creAmountField {
+  background: #f1f1f1 !important;
+}
+
+.mainTable td {
+  padding: 5px 0;
+}
+
+.creButtonLabel {
+  position: absolute;
+  left: 40%;
+}
+
+.creButtonRow button {
+    background: #075698;
+    border: 0 none;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 38px;
+    margin: 0 5px;
+    padding: 0 15px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+.creButtonRow button:hover {
+  opacity: 0.8;
+}
+
+.processingComplete {
+  color: #c0c0c0 !important;
+  cursor: not-allowed !important;
+  opacity: 0.8;
+}
+
+@media (max-width: 375px) {
+  .mainTable td label {
+      font-size: 13px;
+      font-weight: normal;
+      margin-right: 10px;
+  }
+
+  .mainTable td:first-child {
+    text-align: left;
+  }
+
+  .creButtonLabel {
+    left: 40%;
+    position: relative;
+  }
+
+  .mainTable td input {
+    width: 100%;
+  }
+
+  .creCVV2Field {
+    width: 75% !important;
+  }
+}
